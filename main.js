@@ -61,8 +61,10 @@ let coin = {
 
 function check(){
     coin.toString()
+    coin.toHTML()
 }
 check()
+
 //write 2 functions that roll the coin 20x
 
 
