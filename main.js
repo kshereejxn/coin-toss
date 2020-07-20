@@ -66,5 +66,3 @@ function check(){
 check()
 
 //write 2 functions that roll the coin 20x
-
-
