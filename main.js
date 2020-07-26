@@ -33,6 +33,8 @@ let coin = {
 
          let headsImg = document.createElement('img')
          headsImg.src = 'https://www.marshu.com/articles/images-website/articles/presidents-on-coins/penny-cent-coin-head.jpg'
+         headsImg.style.height = 200 + "px"
+         headsImg.style. width = 200 + "px"
          headsImg.className = 'img'
          bodyElement.append(headsImg)
          return headsImg
@@ -41,6 +43,8 @@ let coin = {
       else {
          let tailsImg = document.createElement('img')
          tailsImg.src = 'http://clipart-library.com/img1/985331.jpg'
+         tailsImg.style.height = 200 + "px"
+         tailsImg.style.width = 200 + "px"
          tailsImg.className = 'img'
          bodyElement.append(tailsImg)
          return tailsImg
@@ -65,4 +69,15 @@ function check() {
 check()
 
 //write 2 functions that roll the coin 20x
-
+function display20flips() {
+   for (let index = 0; index <= 19; index++) {
+      coin.toString()
+   }
+}
+display20flips()
+function display20images() {
+   for (let index = 0; index <= 19; index++) {
+      coin.toHTML()
+   }
+}
+display20images()
